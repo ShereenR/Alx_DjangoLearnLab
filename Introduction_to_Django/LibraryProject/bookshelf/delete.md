@@ -1,4 +1,4 @@
- ### حذف الكتاب
+### حذف الكتاب
 
 #### الأمر:
 ```python
@@ -15,4 +15,3 @@ Book.objects.all()
 # resulte
 (1, {'bookshelf.Book': 1})
 <QuerySet []>
-

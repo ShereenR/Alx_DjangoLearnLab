@@ -15,4 +15,3 @@ book.save()
 new_book
 # resulte
 <Book: Nineteen Eighty-Four>
-
