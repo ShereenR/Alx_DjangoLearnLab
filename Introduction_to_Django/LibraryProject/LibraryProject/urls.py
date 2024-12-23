@@ -17,7 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls import include
+from bookshelf import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('bookshelf',include('bookshelf.urls')),
+    # path('',include('bookshelf.urls')),
+    path('',views.home,name='home'),
 ]
